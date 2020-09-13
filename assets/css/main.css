@@ -4049,3 +4049,21 @@ color: #c99595;
 	background-color: rgb(223, 179, 186) !important;
 }
 
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .logo > a , .logo > a:hover, .logo > a:focus, .logo > a:active{
+	text-decoration: none !important;
+	color: inherit !important;
+} */
+
+
+.inner {
+	height: 100% !important;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between !important; 
+}
