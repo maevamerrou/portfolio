@@ -131,7 +131,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1024px) {
 
 			body, input, select, textarea {
 				font-size: 12pt;
@@ -816,7 +816,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1024px) {
 
 			.row {
 				display: flex;
@@ -1057,6 +1057,17 @@ input, select, textarea {
 
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 3em;
+						}
+
+		
+
+						.myapp-card {
+							display: flex;
+							flex-wrap: wrap;
+						}
+
+						.logo-link {
+							display:none;
 						}
 
 		}
@@ -1304,9 +1315,14 @@ input, select, textarea {
 							padding-top: 3em;
 						}
 
+
+						.content {
+							display: block;
+						}
+
 		}
 
-		@media screen and (max-width: 736px) {
+		/* @media screen and (max-width: 736px) {
 
 			.row {
 				display: flex;
@@ -1549,7 +1565,7 @@ input, select, textarea {
 							padding-top: 3em;
 						}
 
-		}
+		} */
 
 		@media screen and (max-width: 480px) {
 
@@ -3219,7 +3235,7 @@ input, select, textarea {
 
 			}
 
-			@media screen and (max-width: 1280px) {
+			@media screen and (max-width: 1024px) {
 
 				.wrapper > .inner {
 					width: 100%;
@@ -3283,7 +3299,7 @@ input, select, textarea {
 				height: 100vh;
 			}
 
-			@media screen and (max-width: 1280px) {
+			@media screen and (max-width: 1024px) {
 
 				.wrapper.fullscreen {
 					min-height: calc(100vh - 2.5em);
@@ -3468,7 +3484,7 @@ input, select, textarea {
 		margin-left: 18em;
 	}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1024px) {
 
 			#sidebar + #wrapper {
 				margin-left: 0;
@@ -3495,7 +3511,7 @@ input, select, textarea {
 		margin-left: 18em;
 	}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1024px) {
 
 			#sidebar + #wrapper + #footer {
 				margin-left: 0;
@@ -3802,7 +3818,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1024px) {
 
 			#sidebar {
 				height: 3.5em;
@@ -3902,7 +3918,7 @@ input, select, textarea {
 
 			}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1024px) {
 
 			#intro {
 				background-attachment: scroll;
