@@ -4045,11 +4045,7 @@ color: #c99595;
 }
 
 
-.app-image {
-	background-color: white;
-}
-
-
 .spotlights > section > .image:before {
-	background: transparent;
+	background-color: rgb(223, 179, 186) !important;
 }
+
