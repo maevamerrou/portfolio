@@ -4038,6 +4038,7 @@ p {
 	padding: 10px;
 	overflow:hidden;
 	height: 300px;
+	width: 100%;
 }
 
 
@@ -4075,10 +4076,12 @@ color: #c99595;
 	justify-content: space-around;
 }
 
-.logo-link:link {
+
+.logo-link {
 	text-decoration: none !important;
 	color: inherit !important;
-} 
+	border-bottom: none;
+}
 
 
 .logo {
@@ -4102,7 +4105,7 @@ color: #c99595;
 
 .app-image {
 	object-position: 0px 0px;
-	width: 35%;
+	width:350px;
 	height: 100%;
 	object-fit: cover;
 }
