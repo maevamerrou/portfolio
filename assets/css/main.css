@@ -4032,15 +4032,6 @@ p {
 	line-height: 40px;
 }
 
-.myapp-card {
-	/* border: black 2px solid; */
-	/* border-radius: 40px; */
-	padding: 10px;
-	overflow:hidden;
-	height: 300px;
-	width: 100%;
-}
-
 
 body{
 	background-color: #c99595;
@@ -4103,13 +4094,6 @@ color: #c99595;
 	padding: 0px !important;
 }
 
-.app-image {
-	object-position: 0px 0px;
-	width:350px;
-	height: 100%;
-	object-fit: cover;
-}
-
 
 
 @media screen and (max-width: 480px) {
@@ -4121,9 +4105,6 @@ color: #c99595;
 		flex-wrap: nowrap !important;
 	}
 
-	.app-image {
-		width: 100%;
-	}
 
 	.myapp-card {
 		display: flex;
@@ -4146,9 +4127,26 @@ color: #c99595;
 .button {
 	width: auto;
 	max-width: 280px;
+	box-shadow: 3px 3px 10px #946060;
+
 }
 
-.apps-content {
+
+.myapp-card {
+	padding: 10px;
+	height: 350px;
+	width: 100%;
+}
+
+
+.app-image {
+	object-position: 0px 0px;
+	width:500px;
+	height: 100%;
+	object-fit: cover;
+}
+
+.app-content {
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
